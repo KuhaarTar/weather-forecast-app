@@ -1,0 +1,25 @@
+@use "./../../../assets/styles/base" as b;
+
+.additional-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+@media (width < b.$layout-breakpoint-1120) {
+  .additional-content {
+    padding: 1rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (width < b.$layout-breakpoint-960) {
+  .additional-content {
+    padding: 1rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

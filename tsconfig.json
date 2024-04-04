@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "typeRoots" : ["node_modules/@types", "src/assets"],
+    "target": "es2016",
+    "module": "commonjs",
+    "jsx": "react",
+    "include": [
+      "src/**/*.ts",
+      "../assets/imgs/**/*.png"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

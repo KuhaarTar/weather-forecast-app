@@ -1,0 +1,53 @@
+@use "src/assets/styles/base" as b;
+
+.shadow-background {
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.error-wrapper {
+  top: 20%;
+  border-radius: 10px;
+  padding: 1rem;
+  color: b.$gray-border-color;
+  background-color: #ff6666;
+  width: 20%;
+  position: absolute;
+  left: 40%;
+  font-family: b.$font-nunito;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 7rem;
+  }
+
+  h2 {
+
+  }
+
+  button {
+    padding: 0.3rem 2rem;
+    border: 1px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+
+@media (width < b.$layout-breakpoint-960) {
+  .error-wrapper {
+    width: 50%;
+    left: 25%;
+  }
+}

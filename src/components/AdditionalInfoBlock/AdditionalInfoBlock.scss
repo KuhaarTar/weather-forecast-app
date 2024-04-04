@@ -1,0 +1,45 @@
+@use "./../../assets/styles/base" as b;
+
+.additional-block-wrapper {
+  width: 35%;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #eaeaea;
+}
+
+hr {
+  border: none;
+  border-left: 2px solid #eaeaea;
+  position: absolute;
+  height: 90%;
+  width: 1px;
+  left: 50%;
+  top: 0;
+}
+
+.left-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-start;
+
+  img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media (width < b.$layout-breakpoint-960) {
+  .additional-block-wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+@media (width < b.$layout-breakpoint-700) {
+  .additional-block-wrapper {
+    width: 70%;
+  }
+}
