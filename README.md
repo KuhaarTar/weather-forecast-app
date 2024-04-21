@@ -2,6 +2,8 @@
 
 ![Application](/public/img.png)
 
+[Docker repository](https://hub.docker.com/repository/docker/kuhartar/weather-app/general)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
