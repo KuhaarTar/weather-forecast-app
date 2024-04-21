@@ -4,7 +4,7 @@
 
 ## Docker
 
-[Docker repository](https://hub.docker.com/repository/docker/kuhartar/weather-app/general)
+[Docker repository with this app](https://hub.docker.com/repository/docker/kuhartar/weather-app/general)
 
 # Getting Started with Create React App
 
